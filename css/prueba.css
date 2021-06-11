@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin:auto;
+    padding: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    display: flex;
+}
+
+body{
+    margin: 0;
+}
+
+.caja5{
+    display: none;
+}
+
+.nav-bar{
+    background: #ED6C7E;
+    border: 1.5px solid black;
+    display: block;
+    color: white;
+    font-size: 2.0em;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 10px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.0em;
+    text-align: center;
+
+}
+
+.menu{
+    background: #ED6C7E;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 20px 15px;
+    width: 100%;
+    margin-left: 400%;
+    transition: all 0.3s;
+}
+
+.menu li a{
+    display: block;
+}
+
+.menu li:hover{
+    background: #434343;
+    color: white;
+}
+
+.menu li a:hover{
+    color: white;
+}
+
+
+.menu li{
+
+    padding:5px 10px;
+}
+
+.menu__link{
+    display: block;
+    padding: 2px;
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.mostrar{
+    margin-left: 0;
+}
+
+.nav-bar:hover{
+    color: black;
+}
+
+
+
+@media (min-width:1024px){
+    .nav-bar{
+        display: none;
+    }
+    .menu{
+        margin-left: 0;
+        display: flex;
+    }
+    .menu li{
+
+        padding:5px 10px;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    .caja4{
+        display: none;
+    }
+    .main-nav{
+        position: fixed;
+    }
+    .menu{
+        bottom: 100px;
+    }
+    .menu li a{
+        display: block;
+    }
+
+ 
+}
+
+
+.redes-container{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50 px;
+    text-align: center;
+    
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: white;
+    color: black;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 2);
+    transition: .2s;
+    border-radius: 10px;
+}
+
+
+
+.redes-container ul li a:hover{
+    transform: translate(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
+    filter: none;
+}
+
+.enlaces{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.enlaces li{
+    display:inline-block;
+    text-align:center;
+    padding:10px;
+}
+
+.enlaces li a{
+    color: black;
+}
+
+.menu__items{
+    border-radius: 20px;
+    border: 1.5px solid black;
+    text-align: left;
+    background-color: white;
+}
+
+
+
+
